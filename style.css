@@ -1,0 +1,191 @@
+:root
+{
+    --top-background-color: #3668FF;
+    --gradiant-background-color-left: #4D83FF;
+    --gradiant-background-color-right: #4D77FF;
+    --middle-background-color: #10142D;
+    --bottom-background-color: #FFF200;
+    --footer-background-color: #999100;
+}
+
+body
+{
+    background-color: black;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--top-background-color);
+}
+
+.stickyBtn
+{
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+
+header a
+{
+    color: white;
+}
+
+.fa-question-circle
+{
+    font-size: 1.5em;
+    color: white;
+}
+
+.logoStart
+{
+    background-color: var(--top-background-color);
+    height: 80vh;
+    text-align: center;
+    color: white;
+    line-height: 5em;
+}
+
+.fa-plus-circle
+{
+    position: relative;
+    top: -0.50em;
+    font-size: 5em;
+}
+
+.logoStart button
+{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+.logoStart p
+{
+    margin: -2em;
+}
+
+.premiums
+{
+    background-image: linear-gradient(to right, var(--gradiant-background-color-left), var(--gradiant-background-color-right));
+    text-align: center;
+}
+
+.card-deck
+{
+    margin: auto;
+    text-align: left;
+}
+.card
+{
+    background-color: white;
+    margin: auto;
+}
+
+.card button
+{
+    border-radius: 25px;
+}
+
+.pandPlus button
+{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.premiumDisclaimer
+{
+    font-size: .8em;
+    color: white;
+}
+
+.articles
+{
+    background-color: var(--middle-background-color);
+}
+
+.articles h3
+{
+    color: white;
+}
+
+.articles h6
+{
+    font-size: 1.15em;
+    color:white;
+}
+.articles p
+{
+    font-size: .8em;
+    color: white;
+}
+
+.articles div[class*='artpop'] h6, .articles div[class*='artpop'] p
+{
+    width: 100%;
+    line-height: 1.9em;
+}
+
+.uglyYellow
+{
+    background-color: var(--bottom-background-color);
+}
+
+.uglyYellow h6
+{
+    font-size: 2em;
+}
+
+.uglyYellow p
+{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.uglyYellow div[class*='textContent']
+{
+    padding-top: 6em;
+}
+
+.uglyYellowFooter
+{
+    color: white;
+    font-size: 1em;
+    background-color: var(--footer-background-color);
+}
+
+.uglyYellowFooter button
+{
+    color: white;
+    background-color: #ada733;
+    border-color: #ada733;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+}
+
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul
+{
+    list-style: none;
+}
+
+footer li
+{
+    display: inline;
+}
+
+.copyright
+{
+    font-size: .7em;
+}
