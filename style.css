@@ -2,7 +2,7 @@
 {
     --top-background-color: #3668FF;
     --gradiant-background-color-left: #4D83FF;
-    --gradiant-background-color-right: #4D77FF;
+    --gradiant-background-color-right: #4D22FF;
     --middle-background-color: #10142D;
     --bottom-background-color: #FFF200;
     --footer-background-color: #999100;
@@ -48,6 +48,7 @@ header a
     line-height: 5em;
 }
 
+/*We need to edit this position to make sure it's on the border of the DIVs*/
 .fa-plus-circle
 {
     position: relative;
